@@ -1,3 +1,44 @@
 td > img{
     border-radius: 50%;
 }
+
+ 
+
+#to{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+   /* top: 95%;
+   left: 95%; */
+    text-decoration: none;
+
+}
+
+.to{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    text-decoration: none;
+    bottom: 0px;
+    right: 80px;
+}
+
+
+#to:hover{
+    color:blue;
+    text-decoration: underline;
+   
+}
+
+.to:hover{
+    color:blue;
+    text-decoration: underline;  
+    border-right: 2px solid white; 
+}
+   
